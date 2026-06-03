@@ -5,6 +5,6 @@ Projekt pokazuje, jak budować lekką warstwę klienta API z użyciem typów gen
 Testy obejmują podstawowe operacje CRUD dla publicznego API DummyJSON.
 
 ## Tech Stack
-Playwright
-TypeScript
-Node.js
+- Playwright
+- TypeScript
+- Node.js
