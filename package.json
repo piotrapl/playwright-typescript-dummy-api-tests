@@ -5,5 +5,9 @@
   "scripts": {
     "test": "playwright test",
     "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "typescript": "^5.4.0"
   }
 }  
