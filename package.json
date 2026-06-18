@@ -1,13 +1,16 @@
 {
   "name": "playwright-typescript-dummy-api-tests",
   "version": "1.0.0",
-  "description": "Ultra-minimal API-only Playwright testing project using TypeScript.",
+  "description": "Playwright UI tests written in TypeScript.",
   "scripts": {
     "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
     "report": "playwright show-report"
   },
   "devDependencies": {
+    "@types/node": "^22.0.0",
     "@playwright/test": "^1.44.0",
     "typescript": "^5.4.0"
   }
-}  
+}
